@@ -1,0 +1,70 @@
+/*  orange rgb(246, 103, 51)
+    purple rgb(82 45 128) */
+
+*{
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  padding: 30px;
+  font-family: verdana;
+  color: black;
+}
+body{
+    background-color: rgb(246, 103, 51);
+}
+.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(82 45 128);
+}
+
+a{
+  float: left;
+}
+
+.nav a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to Clemson Orange on hover over*/
+.nav a:hover{
+  background-color: rgb(246, 103, 51);
+}
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+.leftcolumn{
+  width: 45%;
+  float: left;
+}
+.rightcolumn{
+  width: 45%;
+  float: right;
+}
+.img{
+  text-align: center;
+}
